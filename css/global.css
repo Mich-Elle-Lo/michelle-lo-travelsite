@@ -1,0 +1,35 @@
+.body {
+  font-family: "Open Sans", sans-serif;
+}
+.travelsite__nav {
+  background-color: #ffffff;
+  display: flex;
+  color: #335576;
+  height: 2rem;
+  align-items: center;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+.travelsite__name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.04rem;
+}
+.travelsite__menu {
+  font-size: 1.2rem;
+  font-weight: 400;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.travelsite__menu-link {
+  margin-right: 2rem;
+}
+.travelsite__menu-link a {
+  text-decoration: none;
+  color: #335576;
+}
+.travelsite__menu-active {
+  border-bottom: 0.2rem solid #db7a4e;
+}

@@ -1,3 +1,69 @@
 .hero {
   background-color: #fefaf5;
+  height: 52rem;
+  display: flex;
+  align-items: center;
+}
+
+.hero-slogan {
+  padding: 5rem;
+}
+
+.hero-slogan__header {
+  color: #335576;
+  font-size: 3rem;
+}
+
+.hero-slogan__subtext {
+  color: #335576;
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+.hero-button {
+  background-color: #db7a4e;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 200;
+  padding: 0.5rem 3rem;
+  border-radius: 2rem;
+  border-color: #db7a4e;
+  box-shadow: none;
+}
+
+.hero-photo {
+  width: 50%;
+  padding: 5rem;
+}
+.recommendations-city.hawaii .recommendations-bg {
+  background-image: url(./assets/images/Images/hawaii.jpg);
+}
+
+.recommendations-city.iceland .recommendations-bg {
+  background-image: url(./assets/images/Images/iceland.jpg);
+}
+
+.recommendations-city.greece .recommendations-bg {
+  background-image: url(./assets/images/Images/greece.jpg);
+}
+
+.recommendations {
+  background-color: #fefaf5;
+  text-align: center;
+  padding: 2rem;
+  background-color: #fefaf5;
+}
+
+.recommendations-title {
+  text-transform: capitalize;
+  font-size: 2.5rem;
+  font-weight: 650;
+  text-align: left;
+  color: #335576;
+  margin-bottom: 1rem;
+}
+
+.recommendations-wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }

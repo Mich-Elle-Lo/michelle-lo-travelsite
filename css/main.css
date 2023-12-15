@@ -1,69 +1,96 @@
 .hero {
   background-color: #fefaf5;
-  height: 52rem;
+  height: 30rem;
   display: flex;
   align-items: center;
+  letter-spacing: 0.05rem;
 }
 
+.hero-wrapper {
+  display: flex;
+  align-items: center;
+  padding-left: 4rem;
+  height: 30rem;
+}
 .hero-slogan {
-  padding: 5rem;
+  width: 34rem;
 }
-
 .hero-slogan__header {
   color: #335576;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .hero-slogan__subtext {
   color: #335576;
-  font-size: 1.2rem;
+  font-size: 0.8rem;
   font-weight: 200;
 }
 .hero-button {
+  letter-spacing: 0.06rem;
   background-color: #db7a4e;
   color: #fff;
-  font-size: 1rem;
-  font-weight: 200;
-  padding: 0.5rem 3rem;
+  font-size: 0.9rem;
+  font-weight: 100;
+  width: 10rem;
+  height: 2.2rem;
+  border: none;
   border-radius: 2rem;
-  border-color: #db7a4e;
   box-shadow: none;
 }
 
 .hero-photo {
-  width: 50%;
-  padding: 5rem;
-}
-.recommendations-city.hawaii .recommendations-bg {
-  background-image: url(./assets/images/Images/hawaii.jpg);
-}
-
-.recommendations-city.iceland .recommendations-bg {
-  background-image: url(./assets/images/Images/iceland.jpg);
-}
-
-.recommendations-city.greece .recommendations-bg {
-  background-image: url(./assets/images/Images/greece.jpg);
+  transform: scale(0.5) translateX(-5rem);
 }
 
 .recommendations {
-  background-color: #fefaf5;
-  text-align: center;
-  padding: 2rem;
-  background-color: #fefaf5;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 29rem;
+  margin-bottom: 6rem;
 }
 
 .recommendations-title {
-  text-transform: capitalize;
-  font-size: 2.5rem;
-  font-weight: 650;
-  text-align: left;
   color: #335576;
-  margin-bottom: 1rem;
+  text-transform: capitalize;
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding-top: 1.5rem;
+  padding-left: 5rem;
+  letter-spacing: 0.03rem;
+  color: #335576;
 }
 
+.recommendations-card {
+  border-radius: 0.3rem;
+  width: 16rem;
+  height: 24rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
 .recommendations-wrapper {
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  justify-content: center;
+}
+.recommendations-city__title {
+  display: flex;
+  margin-top: auto;
+  margin-left: auto;
+  color: #fefaf5;
+  font-size: 1.3rem;
+  padding-right: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 0.04rem;
+}
+
+.recommendations-bg {
+  flex-direction: column;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
 }

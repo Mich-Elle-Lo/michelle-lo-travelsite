@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Verdana&display=swap">
     <title>Travel Site</title>
     <link rel="stylesheet" href="css/global.css" />
     <link rel="stylesheet" href="css/main.css" />
@@ -27,8 +27,9 @@
         </li>
       </ul>
     </nav>
-<!-- HERO SECTION -->
+
     <section class="hero">
+      <div class="hero-wrapper">
       <section class="hero-slogan">
         <h2 class="hero-slogan__header">
           Travelling Comes With Endless Discoveries
@@ -37,37 +38,81 @@
           Don’t let your dreams be just dreams. Experience the world by booking
           a vacation with us now.
         </p>
-        <button class="hero-button">Get Started</button>
+        <button class="hero-button">Get started</button>
       </section>
       <section class="hero-photo">
         <img src="./assets/images/Images/hero.png" alt="Plane Around The World" class="hero-photo__plane"></img>
       </section>
+      </div>
     </section>
-<!-- RECOMMENDATIONS SECTION -->
+
 
 <section class="recommendations">
   <h1 class="recommendations-title">Recommendations</h1>
 
   <section class="recommendations-wrapper">
-    <article class="recommendations-city hawaii">
-      <div class="recommendations-bg"></div>
+    
+    <article class = "recommendations-card">
+    <div class="recommendations-bg travel-city__hawaii">
       <h2 class="recommendations-city__title">Hawaii</h2>
+    </div>
     </article>
 
-    <article class="recommendations-city iceland">
-      <div class="recommendations-bg"></div>
+    <article class = "recommendations-card">
+    <div class="recommendations-bg travel-city__iceland">
       <h2 class="recommendations-city__title">Iceland</h2>
-    </article>
-
-    <article class="recommendations-city greece">
-      <div class="recommendations-bg"></div>
+    </div>
+      </article>
+<article class = "recommendations-card">
+    <div class="recommendations-bg travel-city__greece">
       <h2 class="recommendations-city__title">Greece</h2>
+    </div>
     </article>
   </section>
 </section>
 
     
 
-    <footer></footer>
+<footer>
+  <section class="footer-info">
+    <div class="footer-container">
+      <article class="footer-contact">
+        <div class="footer-contact__title">Contact</div>
+        <div class="footer-contact__subtitle">email</div>
+        <div class="footer-contact__info">info@travelsite.com</div>
+      </article>
+    </div>
+
+    <article class="footer-hours">
+      <div class="footer-contact__title">Hours</div>
+      <div class="footer-hours__wrapper">
+        <div class="footer-day">
+          <div class="footer-contact__subtitle">Monday - Friday</div>
+          <div class="footer-contact__info">9:00 AM - 5:00 PM</div>
+        </div>
+        <div class="footer-day">
+          <div class="footer-contact__subtitle">Saturday</div>
+          <div class="footer-contact__info">10:00 AM - 4:00 PM</div>
+        </div>
+        <div class="footer-day">
+          <div class="footer-contact__subtitle">Sunday</div>
+          <div class="footer-contact__info">Closed</div>
+        </div>
+      </div>
+    </article>
+
+    <div class="footer-social__wrapper">
+      <div class="footer-contact__title">social</div>
+      <article class="footer-social">
+        <div class="socail-logo__wrapper">
+        <a href="https://www.instagram.com/" class="link"><img src="./assets/images/Icons/icon-instagram.png" alt="IG LOGO" class="social-logo"></a>
+        <a href="https://www.facebook.com/" class="link"><img src="./assets/images/Icons/icon-facebook.png" alt="FB LOGO" class="social-logo"></a>
+        <a href="https://www.twitter.com/" class="link"><img src="./assets/images/Icons/icon-twitter.png" alt="X LOGO" class="social-logo"></a>
+        </div>
+      </article>
+    </div>
+  </section>
+</footer>
+
   </body>
 </html>

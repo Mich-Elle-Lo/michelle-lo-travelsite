@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Verdana&display=swap"
+    />
     <title>Travel Site - Hawaii</title>
     <link rel="stylesheet" href="../css/global.css" />
     <link rel="stylesheet" href="../css/destinations.css" />
@@ -29,46 +32,96 @@
     </nav>
 
     <section class="itinerary">
-      <h1 class="itinerary__title">Hawaii</h1>
+      <div class="itinerary-bg travel-city__hawaii">
+        <h1 class="itinerary__title">Hawaii</h1>
+        <section class="itinerary-wrapper">
+          <article class="itinerary-day">
+            <h2 class="itinerary-day__title">Friday</h2>
+            <ul class="itinerary-day__activities">
+              <li class="itinerary-day__activity">Breakfast</li>
+              <li class="itinerary-day__activity">Lunch</li>
+              <li class="itinerary-day__activity">Dinner</li>
+              <li class="itinerary-day__activity">Snorkeling</li>
+            </ul>
+          </article>
 
-      <div
-        class="itinerary-bg"
-        style="background-image: url(../assets/images/Images/hawaii.jpg)"
-      ></div>
+          <article class="itinerary-day">
+            <h2 class="itinerary-day__title">Saturday</h2>
+            <ul class="itinerary-day__activities">
+              <li class="itinerary-day__activity">Breakfast</li>
+              <li class="itinerary-day__activity">Lunch</li>
+              <li class="itinerary-day__activity">Dinner</li>
+              <li class="itinerary-day__activity">Snorkeling</li>
+            </ul>
+          </article>
 
-      <section class="itinerary-wrapper">
-        <article class="itinerary-day">
-          <h2 class="itinerary-day__title">Friday</h2>
-          <ul class="itinerary-day__activities">
-            <li class="itinerary-day__activity">Breakfast</li>
-            <li class="itinerary-day__activity">Lunch</li>
-            <li class="itinerary-day__activity">Dinner</li>
-            <li class="itinerary-day__activity">Snorkeling</li>
-          </ul>
-        </article>
-
-        <article class="itinerary-day">
-          <h2 class="itinerary-day__title">Saturday</h2>
-          <ul class="itinerary-day__activities">
-            <li class="itinerary-day__activity">Breakfast</li>
-            <li class="itinerary-day__activity">Lunch</li>
-            <li class="itinerary-day__activity">Dinner</li>
-            <li class="itinerary-day__activity">Snorkeling</li>
-          </ul>
-        </article>
-
-        <article class="itinerary-day">
-          <h2 class="itinerary-day__title">Sunday</h2>
-          <ul class="itinerary-day__activities">
-            <li class="itinerary-day__activity">Breakfast</li>
-            <li class="itinerary-day__activity">Lunch</li>
-            <li class="itinerary-day__activity">Dinner</li>
-            <li class="itinerary-day__activity">Snorkeling</li>
-          </ul>
-        </article>
-      </section>
+          <article class="itinerary-day">
+            <h2 class="itinerary-day__title">Sunday</h2>
+            <ul class="itinerary-day__activities">
+              <li class="itinerary-day__activity">Breakfast</li>
+              <li class="itinerary-day__activity">Lunch</li>
+              <li class="itinerary-day__activity">Dinner</li>
+              <li class="itinerary-day__activity">Snorkeling</li>
+            </ul>
+          </article>
+        </section>
+      </div>
     </section>
 
-    <footer></footer>
+    <footer>
+      <section class="footer-info">
+        <div class="footer-container">
+          <article class="footer-contact">
+            <div class="footer-contact__title">Contact</div>
+            <div class="footer-contact__subtitle">email</div>
+            <div class="footer-contact__info">info@travelsite.com</div>
+          </article>
+        </div>
+
+        <article class="footer-hours">
+          <div class="footer-contact__title">Hours</div>
+          <div class="footer-hours__wrapper">
+            <div class="footer-day">
+              <div class="footer-contact__subtitle">Monday - Friday</div>
+              <div class="footer-contact__info">9:00 AM - 5:00 PM</div>
+            </div>
+            <div class="footer-day">
+              <div class="footer-contact__subtitle">Saturday</div>
+              <div class="footer-contact__info">10:00 AM - 4:00 PM</div>
+            </div>
+            <div class="footer-day">
+              <div class="footer-contact__subtitle">Sunday</div>
+              <div class="footer-contact__info">Closed</div>
+            </div>
+          </div>
+        </article>
+
+        <div class="footer-social__wrapper">
+          <div class="footer-contact__title">social</div>
+          <article class="footer-social">
+            <div class="socail-logo__wrapper">
+              <a href="https://www.instagram.com/" class="link"
+                ><img
+                  src="../assets/images/Icons/icon-instagram.png"
+                  alt="IG LOGO"
+                  class="social-logo"
+              /></a>
+              <a href="https://www.facebook.com/" class="link"
+                ><img
+                  src="../assets/images/Icons/icon-facebook.png"
+                  alt="FB LOGO"
+                  class="social-logo"
+              /></a>
+              <a href="https://www.twitter.com/" class="link"
+                ><img
+                  src="../assets/images/Icons/icon-twitter.png"
+                  alt="X LOGO"
+                  class="social-logo"
+              /></a>
+            </div>
+          </article>
+        </div>
+      </section>
+    </footer>
   </body>
 </html>

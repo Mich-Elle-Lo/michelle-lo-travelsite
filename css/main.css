@@ -14,16 +14,21 @@
 }
 .hero-slogan {
   width: 34rem;
+  transform: translateY(-3rem);
 }
 .hero-slogan__header {
   color: #335576;
   font-size: 2rem;
+  margin-top: 0;
 }
 
 .hero-slogan__subtext {
   color: #335576;
   font-size: 0.8rem;
   font-weight: 200;
+  line-height: 1.1rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
 }
 .hero-button {
   letter-spacing: 0.06rem;
@@ -39,7 +44,7 @@
 }
 
 .hero-photo {
-  transform: scale(0.5) translateX(-5rem);
+  transform: scale(0.52) translateX(-5rem);
 }
 
 .recommendations {
@@ -49,7 +54,9 @@
   height: 29rem;
   margin-bottom: 6rem;
 }
-
+.recommendations-city__link {
+  text-decoration: none;
+}
 .recommendations-title {
   color: #335576;
   text-transform: capitalize;
@@ -58,6 +65,7 @@
   padding-top: 1.5rem;
   padding-left: 5rem;
   letter-spacing: 0.03rem;
+  padding-bottom: 1rem;
   color: #335576;
 }
 
@@ -65,8 +73,8 @@
   border-radius: 0.3rem;
   width: 16rem;
   height: 24rem;
-  margin-right: 2rem;
-  margin-left: 2rem;
+  margin-right: 1.2rem;
+  margin-left: 1.2rem;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
 }
 .recommendations-wrapper {

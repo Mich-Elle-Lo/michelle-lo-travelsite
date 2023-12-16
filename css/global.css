@@ -11,9 +11,11 @@
   padding-right: 2.5rem;
 }
 .travelsite__name {
+  color: #335576;
   font-size: 1.2rem;
   font-weight: 600;
   letter-spacing: 0.04rem;
+  text-decoration: none;
 }
 .travelsite__menu {
   font-size: 0.9rem;
@@ -31,7 +33,7 @@
   color: #335576;
 }
 .travelsite__menu-active {
-  border-bottom: 0.2rem solid #db7a4e;
+  border-bottom: 0.18rem solid #db7a4e;
 }
 
 .footer-info {
@@ -53,6 +55,11 @@
   padding-bottom: 1.2rem;
 }
 .footer-contact__info {
+  color: #335576;
+  font-size: 0.9rem;
+}
+.footer-contact__link a {
+  text-decoration: none;
   color: #335576;
   font-size: 0.9rem;
 }
